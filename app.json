@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "telomapp2",
+    "slug": "telomapp2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCtO0MAStWr_ziP6UnDX-Woj_KRxKStMMQ"
+        }
+      },
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.telomapp.teloapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "La App ingresará a tu galería para que puedas elegir la mejor imagen."
+        }
+      ], ["@react-native-google-signin/google-signin"]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "38109873-acf4-4792-84bf-1c35076c185f"
+      }
+    },
+    "owner": "nicocejas94"
+  }
+}

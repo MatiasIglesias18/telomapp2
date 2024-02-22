@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "825644659094",
+    "project_id": "telomap-f82b9",
+    "storage_bucket": "telomap-f82b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825644659094:android:cd3376f163a50a0151edb7",
+        "android_client_info": {
+          "package_name": "com.telomapp.teloapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825644659094-9pstrmhiqlq032uqp6f2hrv1t5cj9i86.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.telomapp.teloapp",
+            "certificate_hash": "068c1665cd0cd6d86c79f643dffe4985aac10b59"
+          }
+        },
+        {
+          "client_id": "825644659094-23s7377qqldmkvmqliv9p4r18osfmpcd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxJUa6_eCdrTsfi7_igdjQjKDTRgZmjnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825644659094-23s7377qqldmkvmqliv9p4r18osfmpcd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
